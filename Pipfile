@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ytmusicapi = "*"
+questionary = "*"
+rich = "*"
+psutil = "*"
+platformdirs = "*"
+yt-dlp = {version = "*", extras = ["default"]}
+browser-cookie3 = "*"
+secretstorage = "*"
+
+[scripts]
+start = "python sync.py"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
